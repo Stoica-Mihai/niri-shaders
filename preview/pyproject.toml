@@ -1,0 +1,10 @@
+[project]
+name = "preview"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.14"
+dependencies = [
+    "moderngl>=5.12.0",
+    "numpy>=2.4.3",
+    "pillow>=12.1.1",
+]

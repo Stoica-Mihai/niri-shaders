@@ -2,6 +2,12 @@
 
 Puzzle piece assembly/disassembly effect for niri window animations.
 
+## Preview
+
+| Open | Close |
+|------|-------|
+| ![open](preview-open.webp) | ![close](preview-close.webp) |
+
 ## Features
 
 - Window split into a 4x3 grid of jigsaw pieces

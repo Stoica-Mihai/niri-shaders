@@ -2,6 +2,12 @@
 
 Instant film photo development effect for niri window animations.
 
+## Preview
+
+| Open | Close |
+|------|-------|
+| ![open](preview-open.webp) | ![close](preview-close.webp) |
+
 ## Features
 
 - Window develops from overexposed white like a polaroid photo

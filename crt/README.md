@@ -2,6 +2,12 @@
 
 Classic CRT monitor power-on/power-off effect for niri window animations.
 
+## Preview
+
+| Open | Close |
+|------|-------|
+| ![open](preview-open.webp) | ![close](preview-close.webp) |
+
 ## Features
 
 - Bright center dot that lingers before the image expands

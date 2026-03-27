@@ -2,6 +2,12 @@
 
 Analog VHS playback effect for niri window animations.
 
+## Preview
+
+| Open | Close |
+|------|-------|
+| ![open](preview-open.webp) | ![close](preview-close.webp) |
+
 ## Features
 
 - Vertical tracking drift and horizontal tearing
