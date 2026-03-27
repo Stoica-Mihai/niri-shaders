@@ -51,19 +51,27 @@ $shader
 BLOCK
 }
 
+# Load theme config (duration/curve per animation type)
+open_duration=800; open_curve=linear
+close_duration=800; close_curve=linear
+resize_duration=800; resize_curve=linear
+if [ -f "$THEME_DIR/theme.conf" ]; then
+    source "$THEME_DIR/theme.conf"
+fi
+
 # Build the new animations block
 ANIMATIONS="animations {\n"
 
 if [ -f "$THEME_DIR/open.frag" ]; then
-    ANIMATIONS+="$(build_block "window-open" "$THEME_DIR/open.frag" 800 linear)\n"
+    ANIMATIONS+="$(build_block "window-open" "$THEME_DIR/open.frag" "$open_duration" "$open_curve")\n"
 fi
 
 if [ -f "$THEME_DIR/close.frag" ]; then
-    ANIMATIONS+="$(build_block "window-close" "$THEME_DIR/close.frag" 800 linear)\n"
+    ANIMATIONS+="$(build_block "window-close" "$THEME_DIR/close.frag" "$close_duration" "$close_curve")\n"
 fi
 
 if [ -f "$THEME_DIR/resize.frag" ]; then
-    ANIMATIONS+="$(build_block "window-resize" "$THEME_DIR/resize.frag" 800 linear)\n"
+    ANIMATIONS+="$(build_block "window-resize" "$THEME_DIR/resize.frag" "$resize_duration" "$resize_curve")\n"
 fi
 
 ANIMATIONS+="}"
