@@ -53,6 +53,34 @@ Cathedral glass shatter with Voronoi tessellation, 3D rotation, jewel-tone tinti
 |------|-------|
 | ![open](stained-glass/preview-open.webp) | ![close](stained-glass/preview-close.webp) |
 
+### Quantum
+Quantum superposition collapse with ghost copies converging, per-copy color tinting, and tunneling glow at boundaries.
+
+| Open | Close |
+|------|-------|
+| ![open](quantum/preview-open.webp) | ![close](quantum/preview-close.webp) |
+
+### Ink
+Curl noise ink dissolution with divergence-free fluid advection, swirling vortex tendrils, and color bleeding.
+
+| Open | Close |
+|------|-------|
+| ![open](ink/preview-open.webp) | ![close](ink/preview-close.webp) |
+
+### Tesseract
+4D hypercube unfold with six-plane rotation, double perspective projection, and glowing wireframe edges.
+
+| Open | Close |
+|------|-------|
+| ![open](tesseract/preview-open.webp) | ![close](tesseract/preview-close.webp) |
+
+### Rift
+Dimensional rift with fractal Lichtenberg tear, cloth curl-back, volumetric raymarched void, and procedural lightning.
+
+| Open | Close |
+|------|-------|
+| ![open](rift/preview-open.webp) | ![close](rift/preview-close.webp) |
+
 ## Installation
 
 ### Quick install
@@ -61,7 +89,7 @@ Cathedral glass shatter with Voronoi tessellation, 3D rotation, jewel-tone tinti
 ./install.sh <theme>
 ```
 
-Available themes: `crt`, `blackhole`, `vhs`, `smoke`, `jigsaw`, `polaroid`, `stained-glass`
+Available themes: `crt`, `blackhole`, `vhs`, `smoke`, `jigsaw`, `polaroid`, `stained-glass`, `quantum`, `ink`, `tesseract`, `rift`
 
 The script backs up your config, replaces the `animations` block, and validates with `niri validate`. If validation fails, the backup is restored.
 
